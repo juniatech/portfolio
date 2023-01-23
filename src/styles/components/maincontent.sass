@@ -1,0 +1,50 @@
+@use '../variables'
+@use '../mixins'
+    
+#main-content
+    background-color: variables.$bg-color
+    flex: 2 1 0
+    border-radius: variables.$container-border-radius
+    padding: 3rem
+
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$text-color-secondary
+        font-size: 1.8rem
+        margin-bottom: 2rem
+        @include mixins.center
+        justify-content: start
+        gap: 1 rem
+     
+
+    p
+        color: variables.$text-color
+        margin-bottom: 1rem
+        line-height: 1.4rem
+
+    h4
+        color: variables.$text-color
+        margin-bottom: 0.5rem
+        line-height: 1.4rem
+        font-size: 1rem
+        
+
+    p2 
+        color: variables.$text-color
+        font-family: 'Roboto'
+        font-style: normal
+        font-size: 1rem
+        margin-bottom: 3rem
+        line-height: 1.4rem
+
+    .btn
+        align-self: start
+        @include mixins.btn
+        margin-bottom: 3rem
+
+    h3
+        color: variables.$text-color
