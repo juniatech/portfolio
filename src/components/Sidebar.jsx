@@ -14,7 +14,7 @@ const Sidebar = () => {
 
       <SocialNetworkContainer/>
       <InformationContainer/>
-      <a href="Curriculo-2023.pdf" target="_blank" className="btn">
+      <a href="Curriculo2023.pdf" target="_blank" className="btn">
         Download currículo
       </a>
     </aside>
