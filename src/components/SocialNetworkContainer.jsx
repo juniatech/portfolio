@@ -20,4 +20,4 @@ const SocialNetworkContainer = () => {
 }
 
 
-export default SocialNetworkContainer;
+export default SocialNetworkContainer

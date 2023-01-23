@@ -30,4 +30,4 @@ const InformationContainer = () => {
   );
 };
 
-export default InformationContainer;
+export default InformationContainer

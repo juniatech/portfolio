@@ -49,7 +49,7 @@ const ProjectsContainer = () => {
           <br></br>
           Me manda um "Oi" pelo WhatsApp 👩‍💻: </h2>
         <a href="https://api.whatsapp.com/send?phone=5519994291295&text=Ol%C3%A1,%20tudo%20bem?" target="_blank" className="btn">
-          📞Chamar no WhatsApp
+          Chamar no WhatsApp
         </a>
 
       </section>
