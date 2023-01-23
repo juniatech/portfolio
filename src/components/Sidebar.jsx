@@ -14,7 +14,7 @@ const Sidebar = () => {
 
       <SocialNetworkContainer/>
       <InformationContainer/>
-      <a href="Curriculo2023.pdf" target="_blank" className="btn">
+      <a href="https://github.com/juniatech/portfolio/blob/main/Curriculo2023.pdf" target="_blank" className="btn">
         Download currículo
       </a>
     </aside>
